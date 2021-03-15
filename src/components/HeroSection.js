@@ -15,8 +15,11 @@ const HeroSection = () => {
     >
       <div className="container">
         <div class="row">
-          <div className="col shadow p-3 mb-5 bg-white rounded">
-            <h1 className="display-4" style={{ fontFamily: "Raleway" }}>
+          <div
+            className="col shadow-lg p-3 mb-5 bg-white rounded"
+            style={{ opacity: 0.7, borderColor: "black" }}
+          >
+            <h1 className="display-5" style={{ fontFamily: "Raleway" }}>
               <b>IT'S TIME TO WORK IT OUT</b>
             </h1>
             <p className="lead">

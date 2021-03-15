@@ -2,10 +2,10 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
-        <div className="col text-center">
-          <h2>MEET YOUR COACH</h2>
+        <div className="col text-center shadow-lg">
+          <h2 style={{ fontFamily: "Raleway" }}>MEET YOUR COACH</h2>
           <hr className="my-4" />
         </div>
       </div>
